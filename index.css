@@ -481,7 +481,7 @@ html {
 }
 
 .subscribe button:hover {
-    background-color: rgb(190, 124, 0);
+    background-color: rgb(175, 52, 52);
 }
 
 .quick-links {
@@ -561,6 +561,7 @@ html {
     font-size: 40px;
 }
 
-.icons :hover {
-    color: rgb(44, 188, 255);
+.icon :hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
 }
