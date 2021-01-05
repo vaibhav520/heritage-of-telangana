@@ -35,14 +35,11 @@
             </a>
         </ul>
     </nav>
-    <div class="mid" id="home">
-        <h1>Laxmi narayan temple</h1>
-        <p>Located in Jainath,Near Adilabad <br>Vaishnava Shrine,Built by Pallava Chiefs<br> Unique Hindu shrine with Jain architecture</p>
-        <button>know more</button>
-        <img src="temple.png" alt="error">
-    </div>
-    <div class="name">
-        <h1>Department of heritage of Telangana</h1>
+    <div class="mid">
+        <div>
+            <h1>Department of heritage of Telangana</h1>
+            <img src="logo.png" alt="error">
+        </div>
     </div>
     <div id="about">
         <h1>About culture of Telangana</h1>
@@ -70,7 +67,7 @@
             <h1>Temples</h1>
             <p>Telangana region is home to several Temples spread across the ten districts. These were built by the rulers of several prominent dynasties of this region. They represent the faith of god.
                 <a href="temples.html" style="color:white;text-decoration:none;"><button>know
-                    more<i class="fas fa-long-arrow-alt-right"></i></button></a>
+                        more<i class="fas fa-long-arrow-alt-right"></i></button></a>
             </p>
         </div>
     </div>
@@ -86,12 +83,12 @@
     </div>
     <div class="subscribe">
         <h1>SUBSCRIBE TO OUR NEWS LETTER</h1>
-        <form> <input type="email" placeholder="Enter Your Email Adress" required>
+        <form onsubmit="func()"> <input type="email" placeholder="Enter Your Email Adress" required>
             <button type="submit">submit</button>
         </form>
     </div>
     <footer class="footer">
-        <form class="form">
+        <form class="form" onsubmit="func2()">
             <h1>contact us</h1>
             <input type="text" placeholder="enter your full name" minlength="2" maxlength="25" required>
             <input type="email" placeholder="enter your email adress" required>
@@ -133,6 +130,15 @@
         </div>
         <div class="icon"><i class="fab fa-facebook-f icons"></i><i class="fab fa-instagram icons"></i><i class="fab fa-twitter icons"></i><i class="fab fa-youtube icons"></i></div>
     </footer>
+    <script>
+        function func() {
+            alert("thanks for subscribing our news letter");
+        }
+
+        function func2() {
+            alert("thanks for the feedback");
+        }
+    </script>
 </body>
 
 </html>
