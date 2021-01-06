@@ -168,9 +168,9 @@ html {
     border: 2px solid black;
     font-family: 'Titillium Web', sans-serif;
     border-radius: 5%;
-    height: 258px;
-    width: 473px;
-    position: absolute;
+    height: 254px;
+    /* width: 473px; */
+    /* position: absolute; */
     color: white;
     opacity: 0;
     text-align: center;
@@ -183,9 +183,9 @@ html {
     border: 2px solid black;
     font-family: 'Titillium Web', sans-serif;
     border-radius: 5%;
-    height: 258px;
-    width: 473px;
-    position: absolute;
+    height: 254px;
+    /* width: 473px; */
+    /* position: absolute; */
     color: white;
     opacity: 0;
     text-align: center;
@@ -198,9 +198,7 @@ html {
     border: 2px solid black;
     font-family: 'Titillium Web', sans-serif;
     border-radius: 5%;
-    height: 258px;
-    width: 473px;
-    position: absolute;
+    height: 254px;
     color: white;
     opacity: 0;
     text-align: center;
@@ -223,8 +221,8 @@ html {
 
 .sec button {
     color: white;
-    position: absolute;
-    margin-top: 30px;
+    /* position: absolute; */
+    margin-top: 20px;
     outline: none;
     border: 3px solid rgb(199, 194, 194);
     left: 40px;
