@@ -23,7 +23,7 @@ html {
     cursor: pointer;
     transition: 0.5s;
     font-family: 'Luckiest Guy', cursive;
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 .nav ul li:hover {
@@ -34,7 +34,7 @@ html {
 
 .nav {
     background-color: black;
-    width: 100%;
+    width: 100vw;
     padding: 2px;
     position: fixed;
     z-index: 2;
@@ -61,7 +61,7 @@ html {
 .mid img {
     width: 500px;
     margin-top: 150px;
-    margin-left: 500px;
+    margin-left: 33vw;
 }
 
 .name {
@@ -76,23 +76,23 @@ html {
 
 #about {
     color: black;
-    font-size: 15px;
+    font-size: 1vw;
     margin: 90px;
     font-family: 'Kanit', sans-serif;
 }
 
 #about p {
     color: grey;
-    font-size: 17px;
+    font-size: 1.2vw;
 }
 
 #about img {
-    width: 400px;
+    width: 30vw;
     box-shadow: 2px 3px 5px black;
     border-radius: 30%;
     margin-top: -200px;
-    margin-left: 680px;
-    height: 200px;
+    margin-left: 50vw;
+    height: 15vw;
 }
 
 .sec {
